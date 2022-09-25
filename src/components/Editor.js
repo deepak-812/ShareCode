@@ -79,7 +79,6 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
     return (
         <>
             <div className='doubleTap-section'>
-                <img className="doubletap-img" src="/doubleTap.png"/>
                 <div className="doubleTap-header"><h3>Double Tap</h3></div>
             </div>
             <div className="theme-section">
