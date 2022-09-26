@@ -57,9 +57,9 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
 
 
     const handleClick = (editorTheme) => {
+        editorRef.current.setOption("theme",editorTheme);
         setColorTheme(editorTheme);
         localStorage.setItem('theme-color',editorTheme);
-        editorRef.current.setOption("theme",colorTheme);
      }
 
     useEffect(() => {
@@ -99,7 +99,7 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
                     ></div>
                 </div>
             </div>
-            <textarea id="realtimeEditor" cols="20"></textarea>
+            <textarea id="realtimeEditor"></textarea>
           </div>
         </>
     )
