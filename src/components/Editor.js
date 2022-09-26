@@ -13,10 +13,10 @@ import ACTIONS from '../Actions';
 
 const Editor = ({ socketRef, roomId, onCodeChange }) => {
     const editorRef = useRef(null);
-
-    // state
+    
+    // state 
     const [colorTheme,setColorTheme] = useState('dracula');
-
+    
     // efffect
     useEffect(()   => {
        const currentThemeColor = localStorage.getItem('theme-color');
@@ -78,28 +78,29 @@ const Editor = ({ socketRef, roomId, onCodeChange }) => {
 
     return (
         <>
-            <div className='doubleTap-section'>
-                <div className="doubleTap-header"><h3>Double Tap</h3></div>
+          <div className="editor_section"> 
+            <div className='right-section'>
+                <div className="doubleTap-header"><h3>Theme Switcher &nbsp;</h3></div>
+                <div className="theme-section">
+                    <div className={`${colorTheme === 'dracula' ? 'active' : ''}`} id='th1' 
+                    onClick={() => handleClick('dracula')}
+                    ></div>
+                    <div className={`${colorTheme === 'paraiso-dark' ? 'active' : ''}`} id="th2" 
+                    onClick={() => handleClick('paraiso-dark')}
+                    ></div>
+                    <div className={`${colorTheme === 'material-palenight' ? 'active' : ''}`} id="th3"
+                    onClick={() => handleClick('material-palenight')}
+                    ></div>
+                    <div className={`${colorTheme === 'monokai' ? 'active' : ''}`} id="th4"
+                    onClick={() => handleClick('monokai')}
+                    ></div>
+                    <div className={`${colorTheme === 'eclipse' ? 'active' : ''}`} id="th5"
+                    onClick={() => handleClick('eclipse')}
+                    ></div>
+                </div>
             </div>
-            <div className="theme-section">
-                <div className={`${colorTheme === 'dracula' ? 'active' : ''}`} id='th1'
-                onClick={() => handleClick('dracula')}
-                ></div>
-                <div className={`${colorTheme === 'paraiso-dark' ? 'active' : ''}`} id="th2"
-                onClick={() => handleClick('paraiso-dark')}
-                ></div>
-                <div className={`${colorTheme === 'material-palenight' ? 'active' : ''}`} id="th3"
-                onClick={() => handleClick('material-palenight')}
-                ></div>
-                <div className={`${colorTheme === 'monokai' ? 'active' : ''}`} id="th4"
-                onClick={() => handleClick('monokai')}
-                ></div>
-                <div className={`${colorTheme === 'eclipse' ? 'active' : ''}`} id="th5"
-                onClick={() => handleClick('eclipse')}
-                ></div>
-            </div>
-
-          <textarea id="realtimeEditor"></textarea>
+            <textarea id="realtimeEditor" cols="20"></textarea>
+          </div>
         </>
     )
 };
