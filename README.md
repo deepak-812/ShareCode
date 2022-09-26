@@ -14,6 +14,12 @@
 
 https://user-images.githubusercontent.com/104820894/192222691-6f35aa33-e461-4e4c-8c8f-d652a195a10a.mp4
 
+
+<h2 align="center"> Screenshot </h2>
+
+![IMG_20220926_180927](https://user-images.githubusercontent.com/104820894/192278691-3756ab1c-efd3-4b72-8bea-8bb19502ed15.jpg)
+
+
 # Getting Started ShareCode
 
 Runs the app in the development mode.\
