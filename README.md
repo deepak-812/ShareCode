@@ -1,1 +1,34 @@
-readme.md
+<h1 align="center"> Share Code Overview</h1>
+<p align="center">
+  <img src="https://img.shields.io/badge/build-passing-brightgreen">
+  <img src="https://img.shields.io/badge/App-Code share-informational">
+  <img src="https://img.shields.io/badge/Version-0.1.0-informational">
+  <img href="https://img.shields.io/badge/mainter-Deepak%20Sharma-brightgreen">
+  <img src="https://img.shields.io/badge/Server-ExpressJs-information">
+  <img src="https://img.shields.io/badge/os-linux-brightgreen">
+  <img src="https://img.shields.io/badge/published on-herokuapp-brightgreen">
+  <img src="https://img.shields.io/badge/downloads-102-informational">
+</p>
+
+
+
+https://user-images.githubusercontent.com/104820894/192222691-6f35aa33-e461-4e4c-8c8f-d652a195a10a.mp4
+
+# Getting Started ShareCode
+
+Runs the app in the development mode.\
+Open [http://share-code.com](https://share-code-app.herokuapp.com/) to view it in your browser.
+
+The page will reload when maintainer make changes.\
+You may also see any lint errors in the console.
+
+in this project we uses Sockets , expressJs for server implementation and as front-end React.
+
+Server runs on port 5000 on herokuApp
+
+Give a star if u like this . and share your contribution to imporove features in this ShareCode
+
+
+# Thank u For Visit
+
+
