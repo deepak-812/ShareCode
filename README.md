@@ -32,9 +32,9 @@ in this project we uses Sockets , expressJs for server implementation and as fro
 
 Server runs on port 5000 on herokuApp
 
-Give a star if u like this . and share your contribution to imporove features in this ShareCode
+Give a star if u like this Project and share your contribution to imporove features in this ShareCode
 
 
-# Thank u For Visit
+# Thanks for Visit
 
 
