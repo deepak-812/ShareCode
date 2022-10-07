@@ -1,7 +1,7 @@
 <h1 align="center"> Share Code Overview</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/build-passing-brightgreen">
-  <img src="https://img.shields.io/badge/App-Code share-informational">
+  <img src="https://img.shields.io/badge/App-Share Code-informational">
   <img src="https://img.shields.io/badge/Version-0.1.0-informational">
   <img href="https://img.shields.io/badge/mainter-Deepak%20Sharma-brightgreen">
   <img src="https://img.shields.io/badge/Server-ExpressJs-information">
