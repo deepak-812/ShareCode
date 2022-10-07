@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/104820894/192222691-6f35aa33-e461-4e4c
 # Getting Started ShareCode
 
 Runs the app in the development mode.\
-Open [http://share-code.com](https://share-code-app.herokuapp.com/) to view it in your browser.
+Open [https://share-code.com](https://share-code-app.herokuapp.com/) to view it in your browser.
 
 The page will reload when maintainer make changes.\
 You may also see any lint errors in the console.
